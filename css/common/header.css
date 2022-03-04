@@ -1,0 +1,59 @@
+/*header 시작*/
+
+:root{
+ --basicSize:20px;
+}
+
+html{
+ font-size: 20px; /*1rem*/
+ /*font-size: var(--basicSize);*/
+}
+
+#wrap{
+ /*width: 100vw;*/
+ width: 100%;
+ height: 100vh;
+ font-size: 1rem;
+ padding: 0.5em; /*10px*/
+ /*border: 1px solid red;*/
+ /*border: 0.05em solid red;*/
+ box-sizing: border-box;
+}
+.header{
+ background: #ccc;
+ padding: 0.75em 0;
+}
+.header .inner-header{
+ display: flex;
+ justify-content: center;
+}
+.header .inner-header .nav{
+ flex: 0 1 50em;
+ /*border: 0.05em solid;*/
+ display: flex;
+ justify-content: space-between;
+}
+.header .inner-header .nav h1.logo{
+ font-size: 1.5rem;
+ flex: 0 0 4em; /*120*60*/
+ /*border: 0.03333em solid red;*/
+ box-sizing: border-box;
+ line-height: 1em;
+}
+.header .inner-header .nav .gnb{
+ flex: 0 1 25em;
+ /*border: 0.05em solid red;*/
+ box-sizing: border-box;
+}
+.header .inner-header .nav .gnb>ul{
+ display: flex;
+ justify-content: space-between;
+}
+.header .inner-header .nav .gnb>ul>li{
+ display: flex;
+ justify-content: space-between;
+ font-size: 0.6rem;
+ line-height: 2.5em;
+ box-sizing: border-box;
+ /*border: 0.083333em solid red;*/
+}

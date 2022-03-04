@@ -1,0 +1,161 @@
+/*container 시작*/
+.register {}
+
+.register .inner-register {
+
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.register .inner-register .sign-up {
+
+ flex: 0 1 400px;
+ border: 1px solid;
+ box-sizing: border-box;
+
+}
+
+.register .inner-register .sign-up .sign-up-con {
+
+ border: 1px solid;
+
+ box-sizing: border-box;
+
+ /* display: flex;
+
+flex-direction: column;
+
+gap: 10px; */
+
+ padding: 5px 10px;
+
+}
+
+.register .inner-register .sign-up .sign-up-con h1.title {
+
+ border: 1px solid;
+
+ box-sizing: border-box;
+
+ line-height: 30px;
+
+ padding: 20px;
+
+ text-align: center;
+
+ font-weight: 400;
+
+ background-color: rgb(104, 102, 102);
+
+ color: #fff;
+
+ font-size: 20px;
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form {
+
+ border: 1px solid;
+
+ box-sizing: border-box;
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul {}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li {
+
+ /* border: 1px solid; */
+
+ box-sizing: border-box;
+ line-height: 30px;
+ padding: 5px 5px;
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li label {
+
+ font-weight: bold;
+ letter-spacing: 2px;
+ display: block;
+ background-color: rgb(218, 211, 216);
+ padding: 5px;
+ box-sizing: border-box;
+ line-height: 30px;
+ color: rgb(143, 113, 113);
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 {
+
+ box-shadow: 0 1px 2px #ccc;
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 input {
+
+ display: block;
+
+ width: 100%;
+
+ line-height: 40px;
+
+ padding: 0 0;
+
+ box-sizing: border-box;
+
+ border: 0;
+
+ color: rgb(145, 128, 128);
+
+ letter-spacing: 3px;
+
+ font-size: 10px;
+
+ padding: 0 5px;
+
+ box-sizing: border-box;
+
+}
+
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 input:focus {
+ 
+ background-color: rgb(231, 210, 210);
+ 
+ outline: 0;
+ 
+ color: rgb(68, 23, 23);
+ 
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2{
+ display: flex;
+ justify-content: center;
+ gap: 5px;
+ border: 1px solid;
+}
+ .register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one{
+  line-height: 20px;
+  font-size: 12px;
+  padding: 20px 0;
+ }
+ .register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one .input[type=checkbox]{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: block;
+ }
+  .register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one span{
+   line-height: 14px;
+   font-size: 12px;
+  }
+  .register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one span::after{
+   content:' Terms & Conditions';
+   line-height: 14px;
+   font-size: 12px;
+   font-weight: 600;
+   color: chocolate;
+  }
